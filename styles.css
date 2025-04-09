@@ -4,6 +4,69 @@
     border: 0;
 }
 
-nav {
+#logo {
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+header {
     background-color: #4158d0;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+header nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main {
+    margin: 50px 0 0 50px;   
+}
+.seccoes {
+    margin: 20px 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seccoes h2 {
+   margin-bottom: 20px;
+   font-size: 32px;
+   text-align: center; 
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.imagens img {
+    margin-left: 20px;
+}
+
+.videos {
+    width: 640px;
+    height: 480px;
+    margin-left: 20px;
+}
+
+.mapa {
+    width: 1080px;
+    height: 720px;
+    border: 0;
 }
