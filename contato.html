@@ -4,12 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
+    <header>
+        <h1 id="logo">Logo</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
     <main>
-        <section>
+        <section class="titulo">
             <h1>Contato</h1>
         </section>
+        <section class="contato">
+            <div class="area-formulario">
+                <h2>Entre em Contato</h2>
+                <form class="formulario">
+                    <div class="campos">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
+                    </div>
+                    <div class="campos">
+                        <label for="celular">Celular</label>
+                        <input type="number" name="celular" id="celular" placeholder="Digite seu número de celular">
+                    </div>
+                    <input id="btn" type="submit" name="enviar" value="enviar" id="btn-enviar" >
+                </form>
+            </div>
+            <div class="form-mapa">
+                <h2>Localização</h2>
+                <iframe class="mapa-contato" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3675.4544909732185!2d-43.1214737737539!3d-22.896601451612604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2sbr!4v1744227476028!5m2!1spt-PT!2sbr"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+        </section>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
