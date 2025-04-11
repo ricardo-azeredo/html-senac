@@ -33,7 +33,7 @@ header nav ul li a{
 }
 
 main {
-    margin: 50px 0 0 50px;   
+    margin: 50px;   
 }
 .seccoes {
     margin: 20px 0;
@@ -134,4 +134,16 @@ main {
 
 .form-mapa h2 {
     margin-bottom: 10px;
+}
+
+.titulo-sobre h1 {
+    text-align: center;
+}
+
+.paragrafo {
+    padding: 50px;
+}
+
+.paragrafo p {
+    text-align: justify;
 }
