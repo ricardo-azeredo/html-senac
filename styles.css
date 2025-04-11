@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    height: max-content;
 }
 
 #logo {
@@ -33,7 +34,9 @@ header nav ul li a{
 }
 
 main {
-    margin: 50px;   
+    margin: 50px;
+    height: auto;
+    min-height: 71vh;
 }
 .seccoes {
     margin: 20px 0;
@@ -93,7 +96,8 @@ main {
 .area-formulario {
     border: 1px solid #4158d0;
     border-radius: 15px;
-    width: 500px;    
+    width: 500px;   
+    height: auto; 
     padding: 32px;
     display: flex;
     flex-direction: column;       
@@ -146,4 +150,24 @@ main {
 
 .paragrafo p {
     text-align: justify;
+}
+
+footer {
+    background-color: #4158d0;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100%;
+    
+}
+
+footer h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.direito {
+    text-align: center;
 }
