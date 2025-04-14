@@ -28,12 +28,32 @@
                 <form class="formulario">
                     <div class="campos">
                         <label for="nome">Nome</label>
-                        <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
+                        <input type="text" name="nome" class="input" id="nome" placeholder="Digite o seu nome">
                     </div>
                     <div class="campos">
                         <label for="celular">Celular</label>
-                        <input type="number" name="celular" id="celular" placeholder="Digite seu número de celular">
+                        <input type="number" class="input" name="celular" id="celular" placeholder="Digite seu número de celular">
                     </div>
+                    <div class="campos">
+                        <label for="descricao">Assunto</label>
+                        <textarea class="input" name="descricao" id="descricao" placeholder="Descreva sobre o assunto do contato"></textarea>
+                    </div>
+                    <div class="radio">
+                        <label for="">Escolha a sua linguagem favorita</label>
+                    <div class="btn-radio">
+                        <input  type="radio" id="html" class="input-radio" name="fav_language" value="HTML">
+                        <label for="html">HTML</label>
+                    </div>
+                    <div class="btn-radio">
+                        <input type="radio"  id="css"  class="input-radio" name="fav_language"  value="CSS" checked="checked">
+                        <label for="css">CSS</label>
+                    </div>    
+                    <div class="btn-radio">
+                        <input type="radio" id="javascript"  class="input-radio"  name="fav_language" value="JavaScript">
+                        <label for="javascript">JavaScript</label>
+                    </div>    
+                    </div>
+                    
                     <input id="btn" type="submit" name="enviar" value="enviar" id="btn-enviar" >
                 </form>
             </div>

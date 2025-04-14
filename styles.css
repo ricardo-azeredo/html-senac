@@ -112,12 +112,25 @@ main {
     margin: 10px 0;   
 }
 
-.campos input {
+.campos .input {
     border:1px solid #4158d0;
     border-radius: 5px;
     width: 100%;
     margin: 10px 0;
     padding: 10px;
+}
+.radio{
+    margin-bottom: 15px;
+}
+
+.btn-radio {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.input-radio {
+    margin: 5px;
 }
 
 #btn{
