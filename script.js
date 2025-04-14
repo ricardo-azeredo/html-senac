@@ -24,3 +24,4 @@ formulario.addEventListener("submit", function(event) {
     alert(`O nome é ${nome}, o seu contato é ${celular}, o assunto é ${descricao}, a linguagem favorita é ${fav_lag} e as dominantes são: ${valoresSelecionados.join(", ")}`)
     
 })
+

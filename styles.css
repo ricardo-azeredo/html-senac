@@ -133,7 +133,7 @@ main {
     margin: 5px;
 }
 
-#btn{
+.btn-enviar{
     background-color: #04991c;
     padding: 16px;
     color: #fff;
