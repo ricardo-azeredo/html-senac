@@ -21,7 +21,7 @@ formulario.addEventListener("submit", function(event) {
 
     console.log(nome, celular, descricao, fav_lag)
     // alert("O nome é "+nome+" e o contanto é "+celular);
-    alert(`O nome é ${nome}, o seu contato é ${celular}, o assunto é ${descricao}, a linguagem favorita é ${fav_lag} e as dominantes são: ${valoresSelecionados.join(", ")}`)
-    
+    alert(`O nome é ${nome}, o seu contato é ${celular}, o assunto é ${descricao}, a linguagem favorita é ${fav_lag} e as dominantes são: ${valoresSelecionados.join(", ")}`)  
+      
 })
 
